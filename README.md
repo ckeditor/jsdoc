@@ -29,6 +29,11 @@ recent patch-level version. See
 [this Stack Overflow answer](https://stackoverflow.com/questions/22343224) for
 more information about the caret and tilde operators.
 
+To install the latest development version locally, without updating your
+project's `package.json` file:
+
+    npm install git+https://github.com/jsdoc/jsdoc.git
+
 If you installed JSDoc locally, the JSDoc command-line tool is available in
 `./node_modules/.bin`. To generate documentation for the file
 `yourJavaScriptFile.js`:
@@ -88,8 +93,8 @@ JSDoc](https://medium.com/@kevinast/integrate-gitbook-jsdoc-974be8df6fb3)
 
 ## License
 
-JSDoc is copyright (c) 2011-present Michael Mathews <micmath@gmail.com> and
+JSDoc 3 is copyright (c) 2011-present Michael Mathews <micmath@gmail.com> and
 the [contributors to JSDoc](https://github.com/jsdoc/jsdoc/graphs/contributors).
 
-JSDoc is free software, licensed under the Apache License, Version 2.0. See the
-`LICENSE` file for more details.
+JSDoc 3 is free software, licensed under the Apache License, Version 2.0. See
+the file `LICENSE.md` in this distribution for more details.
